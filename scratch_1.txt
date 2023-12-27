@@ -1,6 +1,0 @@
-tosbonus  C:\Users\yunus\PycharmProjects\tosbonus
-  .venv  library root
-  tosbonus2_offline.py
-  tosbonus2_streamlit.py
-External Libraries
-Scratches and Consoles
