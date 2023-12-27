@@ -1,6 +1,3 @@
-pip install beambending
-pip install matplotlib
-
 import streamlit as st
 from beambending import Beam
 import matplotlib.pyplot as plt
