@@ -19,7 +19,7 @@ def calculator():
     ])
 
     # Create a new figure and axes
-    _, ax = plt.subplots()
+    ax = plt.subplots()
 
     # Use the plot method on the Beam object (without passing axes)
     beam.plot()
