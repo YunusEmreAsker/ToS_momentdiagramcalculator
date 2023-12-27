@@ -1,3 +1,4 @@
+py -m pip install -r requirements.txt
 import streamlit as st
 from beambending import Beam
 import matplotlib.pyplot as plt
