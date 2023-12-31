@@ -2,6 +2,11 @@ import streamlit as st
 from beambending import Beam
 import matplotlib.pyplot as plt
 from io import BytesIO
+#Created the requirements.txt for streamlit web app.
+
+
+title = "Theory of Structures - I"
+st.markdown(f"<h1 style='text-align:center;'>{title}</h1>", unsafe_allow_html=True)
 
 with st.expander("Values"):
     bl = st.number_input("Beam Length  ")
@@ -124,3 +129,11 @@ with st.expander("Calculator"):
 
         if __name__ == "__main__":
             main()
+
+st.balloons()
+
+#streamlit website:
+#https://tosmomentdiagramcalculator.streamlit.app/
+
+#GitHub Repo:
+#https://github.com/YunusEmreAsker/ToS_momentdiagramcalculator
